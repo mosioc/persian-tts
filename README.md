@@ -23,6 +23,16 @@ This project provides a Python-based interface for the Piper text-to-speech engi
   - onnxruntime_providers_shared.dll
   - espeak-ng-data directory
   - models directory with the TTS model
+ 
+## Downloading Models
+
+The model files are not included in this repository due to their large size (approximately 60MB each). To use the TTS system:
+
+1. Create a `models` directory in the project root
+2. Download the desired model(s) from the Piper TTS model repository:
+   - Persian models: https://huggingface.co/rhasspy/piper-voices/tree/main/fa_IR
+   - English models: https://huggingface.co/rhasspy/piper-voices/tree/main/en_US
+3. Place the downloaded `.onnx` files in the `models` directory
 
 ## Project Structure
 
