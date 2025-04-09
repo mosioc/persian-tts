@@ -84,7 +84,7 @@ You can modify these paths in the scripts if needed.
 
 ### Available Models
 
-The project supports multiple language models. You can find the following models in the `models` directory:
+The project supports multiple language models; Examples: 
 
 - Persian (Farsi):
   - `fa_IR-gyro-medium.onnx` (default)
