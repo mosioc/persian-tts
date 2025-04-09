@@ -1,0 +1,1 @@
+echo "سلام و درود" | .\piper.exe --model .\models\fa_IR-amir-medium.onnx --output_dir .\outputs

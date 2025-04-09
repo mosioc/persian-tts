@@ -1,0 +1,1 @@
+type text.txt | .\piper.exe --model .\models\fa_IR-amir-medium.onnx --output_dir .\outputs
